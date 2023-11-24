@@ -109,17 +109,11 @@ h1 {
     text-align: center;
 }
 
-.carousel-inner h3 {
-    font-size: 2rem;
-    font-weight: 900;
-    margin: 2% auto;
+.carousel-item img {
+    width: 35%;
 }
 
-.carousel-inner p {
-    margin: 2% auto;
-    padding-left: 20%;
-    padding-right: 20%;
-}
+
 
 
 /********************************Products Styling*************************/
@@ -337,8 +331,8 @@ h1 {
     #products h1, #about h1 {
         font-size: 2rem;
     }
-    #products  {
-        /*width: 80%;*/
+    .carousel-item img {
+        width: 50%;
     }
 
 
