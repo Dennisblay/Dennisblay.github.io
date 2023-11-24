@@ -1,0 +1,307 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to set the desired offset from the bottom */
+    right: 20px; /* Adjust this value to set the desired offset from the right */
+    background-color: darkmagenta; /* Background color of the button */
+    color: #fff; /* Text color of the button */
+    border: none;
+    border-radius: 50%; /* Make it circular */
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+p {
+    padding-top: 2%;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+section {
+    padding: 5% 5%;
+}
+
+/*******************************Header Styling*************************/
+
+#header {
+    padding: 0;
+    background-color: white;
+}
+
+/*********************************Cover Styling**************************/
+
+#cover {
+    padding: 12% 5%;
+    background-image: url("/public/assets_mchan/img/img3.jpeg");
+}
+.cover-text {
+    font-size: 7rem;
+}
+.cover-right-image {
+    width: 90%;
+    border-radius: 4rem;
+}
+
+
+#what-we-do h2{
+    font-size: 5rem;
+}
+
+
+li a {
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+.header-row {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.header-row h3 {
+    padding-top: 2%;
+
+}
+
+.header-img {
+    width: 85%;
+    border-radius: 4rem;
+    text-align: center;
+    /*transition: transform 0.7s;*/
+}
+
+.header-img:hover, #team-2 img:hover, #products-2 img:hover {
+    transform: scale(1.07); /* Increase the scale factor to zoom in more */
+}
+
+.count-app {
+    margin: 2%;
+}
+
+.demo {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/********************************Products Section*************************/
+#products {
+    color: #ffffff;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-inner h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 2% auto;
+}
+
+.carousel-inner p {
+    margin: 2% auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+/********************************Products Styling*************************/
+#products-2 {
+    background-color: white;
+}
+
+#products-2 .one {
+    background-color: #f7f7f7;
+}
+
+.products-2-text {
+    padding: 6%;
+    line-height: 1.5;
+}
+
+#products-2 img {
+    transition: transform 0.7s;
+    border-radius: 3rem;
+}
+
+
+/********************************Screenshots Gallery*************************/
+
+
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.gallery .gallery-item img {
+    transition: 0.3s;
+}
+
+.gallery .gallery-links {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+}
+
+.gallery .gallery-links .preview-link,
+.gallery .gallery-links .details-link {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    line-height: 1.2;
+    margin: 30px 8px 0 8px;
+}
+
+.gallery .gallery-links .preview-link:hover,
+.gallery .gallery-links .details-link:hover {
+    color: #fff;
+}
+
+.gallery .gallery-links .details-link {
+    font-size: 30px;
+    line-height: 0;
+}
+
+.gallery .gallery-item:hover .gallery-links {
+    opacity: 1;
+}
+
+.gallery .gallery-item:hover .preview-link,
+.gallery .gallery-item:hover .details-link {
+    margin-top: 0;
+}
+
+.gallery .gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/******************************** Team *************************/
+
+#team-1 {
+    margin: auto 4%;
+    /*color: #FFFFFF;*/
+    background-color: white;
+}
+
+#team-1 h2 {
+    font-weight: 500;
+}
+
+#team-1 h4, h6 {
+    font-weight: 600;
+}
+
+#team-1 p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.team-1-row {
+    text-align: center;
+    margin: auto 5%;
+}
+
+
+#team-2 {
+    /*font-family: "Ubuntu", sans-serif;*/
+    background: #FFFFFF;
+}
+
+#team-2 h2 {
+    padding: 3%;
+}
+
+#team-2 .team-2-col {
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.janice {
+    width: 3%;
+}
+
+.leader-full {
+    /*margin-left: 20%;*/
+    /*margin-right: 20%;*/
+    margin: auto;
+    justify-items: center;
+    text-align: center;
+}
+
+#what-we-do p {
+    margin: 1% 20%;
+    line-height: 1.8;
+}
+
+/*****************************About*****************************************/
+#about {
+    line-height: 1.8;
+}
+
+/********************************Achievements Styling ************************/
+
+#achievements {
+    text-align: center;
+}
+
+
+#team-2 img {
+    transition: transform 0.7s;
+}
+
+/******************************** Contact *************************/
+
+#contact {
+    color: #FFFFFF;
+    /*#f7f7f7*/
+}
+
+.contact-cols {
+}
+
+#contact img {
+    width: 40%;
+}
+
+
+/******************************** Footer *************************/
+#footer {
+    padding: 5%;
+    text-align: center;
+}
+
+
+.socials {
+    margin: 2%;
+}
+
+
+
+@media screen and (max-width: 900px)  {
+
+}
